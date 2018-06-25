@@ -16,6 +16,7 @@ namespace ConfigurationSample
                 .AddCommandLine(args)
                 .Build();
 
+
             string val1 = config["MySetting1"];
             Console.WriteLine(val1);
 
