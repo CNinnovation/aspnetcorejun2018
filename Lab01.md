@@ -4,7 +4,7 @@
 2. Install the .NET Core 2.1 SDK from [Microsoft](https://www.microsoft.com/net/download/windows)
 3. Developer Command prompt - get course files
 
-> git clone https://github.com/CNinnovation/aspnetcoreworkshop
+> git clone https://github.com/CNinnovation/aspnetcorejun2018/
 
 > You can also fork the repository to your own github account
 
