@@ -1,0 +1,17 @@
+{
+  "name": "SimpleWebApp",
+  "homepage": "https://github.com/CNinnovation/aspnetcorejun2018",
+  "authors": [
+    "Christian Nagel <christian@christiannagel.com>"
+  ],
+  "description": "a sample app",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
