@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "UseMyViewComponent1";
+}
+
+<h2>UseMyViewComponent1</h2>
+
+<div>
+    @await Component.InvokeAsync("MySample", new Dictionary<string, object>()
+    {
+        ["data1"] = "data 1 for the view component",
+        ["data2"] = "data 2 for the view component"
+    })
+</div>
+

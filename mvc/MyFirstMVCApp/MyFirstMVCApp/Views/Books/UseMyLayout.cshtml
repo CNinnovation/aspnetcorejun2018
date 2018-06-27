@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "UseMyLayout";
+}
+
+<h2>UseMyLayout</h2>
+
+@*@Html.Partial("MyPartialView")*@
+<partial name="MyPartialView" />
+
+@*@{ 
+    Html.RenderPartial("MyPartialView");
+        }*@
+
+
+
+    @section mysection {
+    <div>coming from the view</div>
+}
