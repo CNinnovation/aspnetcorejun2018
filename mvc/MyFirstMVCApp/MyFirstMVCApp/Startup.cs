@@ -39,8 +39,6 @@ namespace MyFirstMVCApp
                     template: "{controller}/{action}/{id?}",
                     defaults: new { controller = "Home", action = "Index" });
 
-
-
             });
 
             app.Run(async (context) =>
